@@ -53,9 +53,3 @@ SELECT * FROM communities;
 UPDATE communities SET updated_at = NOW() WHERE created_at > updated_at;
 
 SELECT * FROM communities_users;
-
-
-
-
-
-
