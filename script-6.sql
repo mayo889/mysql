@@ -163,5 +163,3 @@ FROM (
   ORDER BY id) AS activities
 ORDER BY activity
 LIMIT 10;
-
- 
