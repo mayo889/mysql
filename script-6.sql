@@ -148,7 +148,8 @@ FROM (
 
 SELECT
 	activities.full_name,
-	(activities.number_posts + activities.number_messages + activities.number_likes + activities.number_files + activities.number_communities + activities.number_friends) AS activity
+	(activities.number_posts + activities.number_messages + activities.number_likes + activities.number_files +
+	   activities.number_communities + activities.number_friends) AS activity
 FROM (
   SELECT
 	  CONCAT(first_name, ' ', last_name) AS full_name,
